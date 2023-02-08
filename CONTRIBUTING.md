@@ -43,6 +43,13 @@ pip install -e .
 Запускать jupyter-notebook следует из виртуального окружения. Тогда будут доступны все зависимости
 Пример можно посмотреть в notebooks/EDA.ipynb
 
+Добавить соответствующий kernel в jupyter можно следующим образом:
+находясь внутри активированного виртуального окружения
+
+pip install ipykernel
+python -m ipykernel install --user --name=myenv
+
+
 ## Внесение изменений в код
 
 Все изменения должны быть привязаны к issue на github.
